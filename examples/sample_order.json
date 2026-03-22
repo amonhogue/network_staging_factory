@@ -1,0 +1,11 @@
+{
+  "tenant": "Tenant_A",
+  "site_code": "SITE_1001",
+  "profile": "standard_branch",
+  "platform": "junos",
+  "devices": {
+    "edge_firewall": 1,
+    "access_switch": 2,
+    "access_point": 4
+  }
+}

@@ -1,0 +1,13 @@
+system {
+    host-name {{ hostname }};
+}
+
+interfaces {
+    fxp0 {
+        unit 0 {
+            family inet {
+                address {{ mgmt_ip }};
+            }
+        }
+    }
+}
